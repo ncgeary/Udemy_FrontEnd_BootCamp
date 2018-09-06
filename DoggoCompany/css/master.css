@@ -1,0 +1,69 @@
+body{
+  padding: 20px;
+  color: #5a5a5a;
+}
+
+.navbar-wrapper{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+.navbar-wrapper .container{
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.Carousel{
+  margin-top: 50px;
+  margin-top: 50px;
+}
+.Carousel .item{
+  height: 100px;
+  background-color: #777;
+}
+.carousel-item{
+  position: absolute;
+  min-width: 100%;
+  height:550px;
+  top: 0;
+  left: 0;
+}
+
+.Team{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.Team h2{
+  color: rgba(50, 50, 50, 0.8);
+}
+
+.Team p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.divider{
+  margin: 40px 0;
+}
+.content-heading{
+  padding-left: 50px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.doggo4{
+  height: 100%;
+  width: 100%;
+  padding-top: 30px;
+}
+footer{
+  margin: 0 110px;
+  padding: 10px;
+}

@@ -1,0 +1,17 @@
+body{
+  padding-top: 20px;
+}
+
+.jumbotron{
+  text-align: center;
+  background-color: transparent;
+}
+
+.jumbotron .btn{
+  padding: 15px 25px;
+  font-size: 22px;
+}
+
+.row{
+  text-align: center;
+}
