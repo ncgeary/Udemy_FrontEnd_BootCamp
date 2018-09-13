@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Passwork Generator</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/passGenStyle.css">
+  </head>
+  <body>
+    <div class="container">
+
+      <form action="" name="passGen">
+        <div class="col-xs-12">
+          <input type="text" class="out" name="output" size="18">
+
+          <input type="button" class="btn btn-success btn-block myBtn" value="Generate password" onClick="populateform(this.form.length.value)"> <br>
+          <div class="col-xs-10">
+            <strong class="pass">Password Length: </strong>
+          </div>
+
+          <div class="col-xs-2">
+            <input class="in" type="text" name="length" size="3" value="6">
+          </div>
+
+        </div>
+      </form>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
